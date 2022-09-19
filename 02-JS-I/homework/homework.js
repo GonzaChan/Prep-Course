@@ -77,7 +77,7 @@ function tienenMismaLongitud(str1, str2) {
   // Devuelve "true" si las dos strings tienen la misma longitud
   // De lo contrario, devuelve "false"
   // Tu código:
-  if (str1.lenght===str2.lenght){
+  if (str1.length===str2.length){
     return true;
   }else {
       return false;
@@ -102,7 +102,7 @@ function mayorQueCincuenta(num) {
   // Devuelve "true" si el argumento de la función "num" es mayor que cincuenta
   // De lo contrario, devuelve "false"
   // Tu código:
-  if (num>90){
+  if (num>50){
     return true;
   } else {
     return false;
@@ -208,14 +208,14 @@ function combinarNombres(nombre, apellido) {
   // Devuelve "nombre" y "apellido" combinados en una string y separados por un espacio.
   // Ejemplo: "Soy", "Henry" -> "Soy Henry"
   // Tu código:
-  return nombre+apellido;
+  return nombre +" "+apellido;
 }
 
 function obtenerSaludo(nombre) {
   // Toma la string "nombre" y concatena otras string en la cadena para que tome la siguiente forma:
   // "Martin" -> "Hola Martin!"
   // Tu código:
-  return "hola"+nombre+"!";
+  return "Hola "+nombre+"!";
   
 }
 
@@ -257,12 +257,12 @@ function esVocal(letra){
   // Si no es vocal, tambien debe devolver "Dato incorrecto".
   //Escribe tu código aquí
   if(letra.length > 1){
-    return "dato incorrecto";
+    return "Dato incorrecto";
   }
   if(letra === "a" || letra === "e" || letra === "i" || letra === "o" || letra === "u"){
     return "Es vocal";
   }
-  return "dato incorrecto";
+  return "Dato incorrecto";
 
 }
 
